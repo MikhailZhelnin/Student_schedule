@@ -139,7 +139,7 @@ const Component = ({openModal, handleModalToggle, isEditing, editedItem}: Compon
       setTimeTo(null);
       setColor('');
     }
-  }, [isEditing])
+  }, [isEditing, editedItem])
 
   return (
     <Modal
